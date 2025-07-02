@@ -4,9 +4,9 @@
 #include <set>
 #include <map>
 
-// I would declare this class outside of Event folder as it is also used in the Players folder,
-// but I don't want to do that as the only outside files I can sumbit are MatamStory.h/.cpp, and
-// including it there creates circular dependencies and I would like to not deal with it
+// Ideally, I would place this class outside the Event folder since it's also needed in the Players folder.
+// However, I'm limited to only submitting external files named MatamStory.h/.cpp.
+// Including the class there leads to circular dependencies, which I'd prefer to avoid.
 template<typename T>
 class BaseFactory {
 public:
