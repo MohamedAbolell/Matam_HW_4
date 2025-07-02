@@ -1,0 +1,3 @@
+/Users/onegvaknin/Desktop/matam4/Matam_HW_4/Player/cmake-build-debug/CMakeFiles/Player.dir
+/Users/onegvaknin/Desktop/matam4/Matam_HW_4/Player/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/onegvaknin/Desktop/matam4/Matam_HW_4/Player/cmake-build-debug/CMakeFiles/rebuild_cache.dir
