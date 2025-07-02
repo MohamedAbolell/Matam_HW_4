@@ -105,6 +105,7 @@ shared_ptr<Player> MatamStory::parsePlayer(const string &playerName, std::istrea
     auto job = jobFactory.create(jobName);
     return std::make_shared<Player>(playerName, std::move(job), std::move(character));
 }
+
 void MatamStory::printCharacterIntros() const {
     int orderNumber = 1;
     for (const auto &player: activePlayers) {
@@ -155,4 +156,54 @@ void MatamStory::playTurn(Player &player) {
     m_turnIndex++;
 }
 
+void MatamStory::removeInactivePlayers() {
+    activePlayers.erase(
+            // move every player that is knocked out to the end of the deque and get an iterator
+            // that points to the beginning of sequence of moved players
+            std::remove_if(activePlayers.begin(), activePlayers.end(),
+                           [](const shared_ptr<Player> &player) -> bool {
+                               return player->isKnockedOut();
+                           }),
+            // then delete starting from the beginning of the sequence until the end
+            activePlayers.end()
+    );
+}
 
+void MatamStory::playRound() {
+    printRoundStart();
+    for (const auto &player: activePlayers) {
+        playTurn(*player);
+    }
+    printRoundEnd();
+    sortPlayersAndPrintLeaderboard();
+    removeInactivePlayers();
+    printBarrier();
+}
+
+bool MatamStory::isGameOver() const {
+    return (activePlayers.empty() || weHaveAWinner());
+}
+
+void MatamStory::sortAllPlayers() {
+    std::sort(allPlayers.begin(), allPlayers.end(),
+              [](const shared_ptr<Player> &player1, const shared_ptr<Player> &player2) {
+                  return *player1 < *player2;
+              });
+}
+
+void MatamStory::play() {
+    printStartMessage();
+    printCharacterIntros();
+    printBarrier();
+
+    while (!isGameOver()) {
+        playRound();
+    }
+    printGameOver();
+
+    if (weHaveAWinner()) {
+        printWinner(*allPlayers.back());
+    } else {
+        printNoWinners();
+    }
+}
