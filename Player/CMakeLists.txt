@@ -30,4 +30,6 @@ add_executable(Players
         RiskTakingCharacter.h
         Stats.h
         Warrior.cpp
-        Warrior.h)
+        Warrior.h
+        Magician.h
+        Magician.h)

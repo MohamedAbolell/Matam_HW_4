@@ -1,4 +1,13 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/onegvaknin/Desktop/matam4/Matam_HW_4/Player -B /Users/onegvaknin/Desktop/matam4/Matam_HW_4/Player/cmake-build-debug
 -- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /Users/onegvaknin/Desktop/matam4/Matam_HW_4/Player/cmake-build-debug
+CMake Error at CMakeLists.txt:8 (add_executable):
+  Cannot find source file:
+
+    Magician.cpp
+
+
+CMake Error at CMakeLists.txt:8 (add_executable):
+  No SOURCES given to target: Players
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
