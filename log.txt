@@ -1,0 +1,694 @@
+* commit e44812f98b459fe67745de3d124dcf6517fca3d4
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 23:04:55 2025 +0300
+| 
+|     adding play,playTurn,playRound,isGameOver to MatamStory.cpp
+| 
+|  MatamStory.cpp | 2 ++
+|  1 file changed, 2 insertions(+)
+| 
+* commit 0cf8ce12b317786ae38af5745393a2a701f16162
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 23:00:17 2025 +0300
+| 
+|     Adding getActivePlayers,getEvents,weHaveAWinner
+| 
+|  MatamStory.cpp | 51 +++++++++++++++++++++++++++++++++++++++++++++++++++
+|  1 file changed, 51 insertions(+)
+| 
+* commit 16788d2ac8b005413ece64b165048ee6dfcb3bb7
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:57:14 2025 +0300
+| 
+|     Adding to MatamStory.cpp, printCharacterIntros,sortPlayersAndPrintLeaderboard,getAllPlayers
+| 
+|  MatamStory.cpp | 50 ++++++++++++++++++++++++++++++++++++++++++++++++++
+|  1 file changed, 50 insertions(+)
+| 
+* commit bafccbf299c530bd7488432065ad8314a3b37282
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:55:30 2025 +0300
+| 
+|     adding to MatamStory.cpp, parseEvent,parseMonster,parsePlayer
+| 
+|  MatamStory.cpp | 144 ++++++++++++++++++++++++++++++++++---------------------
+|  1 file changed, 89 insertions(+), 55 deletions(-)
+| 
+* commit ec13d445df54d8114c5281f6b299a8388f705f5e
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:51:12 2025 +0300
+| 
+|     updating MatamStory.h class
+| 
+|  MatamStory.h | 77 ++++++++++++++++++++++++++++++++++++++++++++++++++++------
+|  1 file changed, 69 insertions(+), 8 deletions(-)
+| 
+* commit 81ce485e7ba8606650ce672f71e4c157506fa358
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:49:25 2025 +0300
+| 
+|     SolarEclipse.cpp
+| 
+|  Events/SolarEclipse.cpp                                 | 13 +++++++++++++
+|  Events/cmake-build-debug/Testing/Temporary/LastTest.log |  4 ++--
+|  2 files changed, 15 insertions(+), 2 deletions(-)
+| 
+* commit 0a754fe811a7e3008fcec0e7a7ba4c7bad5e6a95
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:48:22 2025 +0300
+| 
+|     SolarEclipse.h
+| 
+|  Events/SolarEclipse.h                                   | 10 ++++++++++
+|  Events/cmake-build-debug/Testing/Temporary/LastTest.log |  4 ++--
+|  2 files changed, 12 insertions(+), 2 deletions(-)
+| 
+* commit 07c768c69a265561d4cc7a7318bd835e71ca9835
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:46:41 2025 +0300
+| 
+|     PotionsMerchant.cpp
+| 
+|  Events/PotionsMerchant.cpp                              | 13 +++++++++++++
+|  Events/cmake-build-debug/Testing/Temporary/LastTest.log |  4 ++--
+|  2 files changed, 15 insertions(+), 2 deletions(-)
+| 
+* commit 43b33ca6ddac431f02fbb18df0d89265155988d7
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:45:30 2025 +0300
+| 
+|     PotionsMerchant.h
+| 
+|  Events/PotionsMerchant.h                                  | 13 +++++++++++++
+|  ...8-08-0040.json => index-2025-07-02T19-43-05-0187.json} |  0
+|  Events/cmake-build-debug/Testing/Temporary/LastTest.log   |  4 ++--
+|  3 files changed, 15 insertions(+), 2 deletions(-)
+| 
+* commit b38bdb1245cdd7064e3bc14c8335acd17a5d8657
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:42:19 2025 +0300
+| 
+|     SpecialEventFactory.cpp class
+| 
+|  Events/SpecialEventFactory.cpp | 11 +++++++++++
+|  1 file changed, 11 insertions(+)
+| 
+* commit ac1ec651ccc628f0086ab3db11bdab11a216e665
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:41:04 2025 +0300
+| 
+|     SpecialEventFactory.h class
+| 
+|  Events/SpecialEventFactory.h | 9 +++++++++
+|  1 file changed, 9 insertions(+)
+| 
+* commit b405e7e6b917a5526e3c5051a80f8922fc752938
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:39:18 2025 +0300
+| 
+|     SpecialEvent.h class
+| 
+|  Events/SpecialEvent.h | 6 ++++++
+|  1 file changed, 6 insertions(+)
+| 
+* commit ba631af35ca668d2e1bc7d18da741b8dbd4081dc
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:37:57 2025 +0300
+| 
+|     creatin Snail.cpp class
+| 
+|  Events/Snail.cpp | 17 +++++++++++++++++
+|  1 file changed, 17 insertions(+)
+| 
+* commit 1d913810ac3d272c16b4a73111b8ab0b3fa0125e
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:36:29 2025 +0300
+| 
+|     creating Snail.h class
+| 
+|  Events/Snail.h | 17 +++++++++++++++++
+|  1 file changed, 17 insertions(+)
+| 
+* commit 4814dd4281997893619ee42724eba19b4120bda9
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:32:16 2025 +0300
+| 
+|     Slime.cpp
+| 
+|  Events/Slime.cpp | 17 +++++++++++++++++
+|  1 file changed, 17 insertions(+)
+| 
+* commit a317b0b861fca7c0921e9794017e5675b0624212
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:31:26 2025 +0300
+| 
+|     Slime.h
+| 
+|  Events/Slime.h | 17 +++++++++++++++++
+|  1 file changed, 17 insertions(+)
+| 
+* commit a29f3c99514e76569c0ead23e1be1402f0c0e285
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:29:50 2025 +0300
+| 
+|     Pack.cpp
+| 
+|  Events/Pack.cpp | 49 +++++++++++++++++++++++++++++++++++++++++++++++++
+|  1 file changed, 49 insertions(+)
+| 
+* commit 47c1a43aec30b06bf0424c32a8f27bac135834d0
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:28:52 2025 +0300
+| 
+|     Pack.h
+| 
+|  Events/.idea/editor.xml                           | 478 ++++++++++----------
+|  Events/Pack.h                                     |  28 ++
+|  .../Testing/Temporary/LastTest.log                |   4 +-
+|  3 files changed, 269 insertions(+), 241 deletions(-)
+| 
+* commit 578d3aa15af0c891f3847a0bfd0ecbc0d6773890
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:27:01 2025 +0300
+| 
+|     MonsterFactory.cpp class
+| 
+|  Events/MonsterFactory.cpp | 19 +++++++++++++++++++
+|  1 file changed, 19 insertions(+)
+| 
+* commit 7921c8d6f43957c4c7c2ac79c32132c479686f39
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:25:56 2025 +0300
+| 
+|     MonsterFactory.h class
+| 
+|  Events/MonsterFactory.h | 10 ++++++++++
+|  1 file changed, 10 insertions(+)
+| 
+* commit bc497727e5ee2038994e9523e2ceb399a9ecba33
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:24:50 2025 +0300
+| 
+|     creating Encounter.cpp class
+| 
+|  Events/Encounter.cpp | 25 +++++++++++++++++++++++++
+|  1 file changed, 25 insertions(+)
+| 
+* commit dd1afc788574a69abeee54c395712e1529a65934
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:23:44 2025 +0300
+| 
+|     creating Encounter.h class
+| 
+|  Events/Encounter.h | 14 ++++++++++++++
+|  1 file changed, 14 insertions(+)
+| 
+* commit e9c5db445d90981df0a14bbb16ac74b709e895fd
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:21:55 2025 +0300
+| 
+|     Event.h class create
+| 
+|  Events/Event.h | 11 ++++++++---
+|  1 file changed, 8 insertions(+), 3 deletions(-)
+| 
+* commit ecf829f4a6c1efd938dacd20e4fdd3bce7e2fc81
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:18:27 2025 +0300
+| 
+|     Balrog.cpp
+| 
+|  Events/Balrog.cpp                                 |   21 +
+|  Events/CMakeLists.txt                             |    3 +-
+|  .../reply/cmakeFiles-v1-664d4152731b0747725f.json |  161 +++
+|  .../reply/cmakeFiles-v1-a1bffda8d2e01aaadb0b.json | 1234 -------------------
+|  ...son => codemodel-v2-5643c35ec1000547dbdb.json} |    2 +-
+|  ...1.json => index-2025-07-02T19-18-08-0040.json} |    8 +-
+|  ...target-Events-Debug-5ee58b9dd713c502a8d3.json} |   12 +-
+|  .../CMakeFiles/clion-Debug-log.txt                |   14 +-
+|  .../Testing/Temporary/LastTest.log                |    4 +-
+|  Events/cmake-build-debug/build.ninja              |   18 +-
+|  10 files changed, 213 insertions(+), 1264 deletions(-)
+| 
+* commit eb33fdda5e36b6f7f815baf797101cb2e05b6f2b
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:17:19 2025 +0300
+| 
+|     Balrog.h
+| 
+|  Events/.idea/Events.iml                           |    8 +-
+|  Events/.idea/misc.xml                             |    7 +
+|  Events/Balrog.h                                   |   15 +
+|  Events/CMakeLists.txt                             |   13 +
+|  .../.cmake/api/v1/query/cache-v2                  |    0
+|  .../.cmake/api/v1/query/cmakeFiles-v1             |    0
+|  .../.cmake/api/v1/query/codemodel-v2              |    0
+|  .../.cmake/api/v1/query/toolchains-v1             |    0
+|  .../v1/reply/cache-v2-3c434b7dd468f38672b5.json   | 1163 +++++++++++++++++
+|  .../reply/cmakeFiles-v1-a1bffda8d2e01aaadb0b.json | 1234 +++++++++++++++++++
+|  .../reply/codemodel-v2-4ba64693d0eb70792614.json  |   60 +
+|  .../directory-.-Debug-f5ebdc15457944623624.json   |   14 +
+|  .../v1/reply/index-2025-07-02T19-16-40-0521.json  |  108 ++
+|  .../target-Events-Debug-09f7942aeeeb5a745528.json |  143 +++
+|  .../reply/toolchains-v1-17cb755997f43c261180.json |   93 ++
+|  Events/cmake-build-debug/CMakeCache.txt           |  363 ++++++
+|  .../CMakeFiles/3.29.6/CMakeCCompiler.cmake        |   80 ++
+|  .../CMakeFiles/3.29.6/CMakeCXXCompiler.cmake      |   92 ++
+|  .../3.29.6/CMakeDetermineCompilerABI_C.bin        |  Bin 0 -> 17000 bytes
+|  .../3.29.6/CMakeDetermineCompilerABI_CXX.bin      |  Bin 0 -> 16984 bytes
+|  .../CMakeFiles/3.29.6/CMakeSystem.cmake           |   15 +
+|  .../3.29.6/CompilerIdC/CMakeCCompilerId.c         |  895 ++++++++++++++
+|  .../3.29.6/CompilerIdC/CMakeCCompilerId.o         |  Bin 0 -> 1712 bytes
+|  .../3.29.6/CompilerIdCXX/CMakeCXXCompilerId.cpp   |  878 +++++++++++++
+|  .../3.29.6/CompilerIdCXX/CMakeCXXCompilerId.o     |  Bin 0 -> 1712 bytes
+|  .../CMakeFiles/CMakeConfigureLog.yaml             |  439 +++++++
+|  .../CMakeFiles/TargetDirectories.txt              |    3 +
+|  .../CMakeFiles/clion-Debug-log.txt                |   16 +
+|  .../CMakeFiles/clion-environment.txt              |    4 +
+|  .../CMakeFiles/cmake.check_cache                  |    1 +
+|  Events/cmake-build-debug/CMakeFiles/rules.ninja   |   64 +
+|  .../Testing/Temporary/LastTest.log                |    3 +
+|  Events/cmake-build-debug/build.ninja              |  146 +++
+|  Events/cmake-build-debug/cmake_install.cmake      |   49 +
+|  34 files changed, 5899 insertions(+), 7 deletions(-)
+| 
+* commit 8cba5d098e46cd428e8988259d3543afc3de61b6
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:15:32 2025 +0300
+| 
+|     Monster cpp
+| 
+|  Events/Monster.cpp | 10 ++++++++++
+|  1 file changed, 10 insertions(+)
+| 
+* commit 273d3847f4dd4d5d02bfd573b58711732a055037
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:14:28 2025 +0300
+| 
+|     Monster.h
+| 
+|  Events/.idea/.gitignore  |   8 +
+|  Events/.idea/Events.iml  |   8 +
+|  Events/.idea/editor.xml  | 580 +++++++++++++++++++++++++++++++++++++++++++++
+|  Events/.idea/modules.xml |   8 +
+|  Events/.idea/vcs.xml     |   6 +
+|  Events/Monster.h         |  26 ++
+|  6 files changed, 636 insertions(+)
+| 
+* commit e4d6bd322753f00976eba13699ceba5b3bebc941
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 22:01:20 2025 +0300
+| 
+|     Warrior.cpp create
+| 
+|  Players/Warrior.cpp | 13 +++++++++++++
+|  1 file changed, 13 insertions(+)
+| 
+* commit 69088a4f8027da3f9fb5885444bbedfc74c82bec
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:59:40 2025 +0300
+| 
+|     Warrior.h class
+| 
+|  Players/Warrior.h | 20 ++++++++++++++++++++
+|  1 file changed, 20 insertions(+)
+| 
+* commit d99afa97a344bfbaa7fc0c7b679b20cd3400c329
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:57:24 2025 +0300
+| 
+|     cretaing Stats.h class
+| 
+|  Players/Stats.h | 9 +++++++++
+|  1 file changed, 9 insertions(+)
+| 
+* commit da04287c669c16be6a0333f85e702f74dd17a0ba
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:55:56 2025 +0300
+| 
+|     creating RiskTakingCharacter.cpp class
+| 
+|  Players/RiskTakingCharacter.cpp | 18 ++++++++++++++++++
+|  1 file changed, 18 insertions(+)
+| 
+* commit 585f1c7962538b8f841dd0b396814a39053d3063
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:52:36 2025 +0300
+| 
+|     creating RiskTakingCharacter.h class
+| 
+|  Players/RiskTakingCharacter.h | 14 ++++++++++++++
+|  1 file changed, 14 insertions(+)
+| 
+* commit 6be8e234cdab75a296459dc111f733732b34ad18
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:49:45 2025 +0300
+| 
+|     ResponsibleCharacter.cpp class
+| 
+|  Players/ResponsibleCharacter.cpp | 24 ++++++++++++++++++++++++
+|  1 file changed, 24 insertions(+)
+| 
+* commit db11788dab17d552de3d716e090ff18fd0a59b9f
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:48:40 2025 +0300
+| 
+|     ResponsibleCharacter.h class
+| 
+|  .DS_Store                      | Bin 6148 -> 6148 bytes
+|  Events/BaseFactory.h           |   6 +++---
+|  Player/.DS_Store               | Bin 8196 -> 0 bytes
+|  Players/ResponsibleCharacter.h |   9 +++++++++
+|  4 files changed, 12 insertions(+), 3 deletions(-)
+| 
+* commit a26db0607dd1a1869f0f96b9b0a63f792402888d
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:44:47 2025 +0300
+| 
+|     Player.cpp create
+| 
+|  Players/Player.cpp | 127 +++++++++++++++++++++++++++++++++++++++++++++++++++
+|  1 file changed, 127 insertions(+)
+| 
+* commit ac82c41e60242185b14fd64aefb65380b0c00e07
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:43:23 2025 +0300
+| 
+|     Player.h create
+| 
+|  Player/Player.h                                   |   51 -
+|  .../v1/reply/cache-v2-f2f06b31c100afef6d85.json   | 1163 -------------------
+|  .../reply/cmakeFiles-v1-b656122a8a7dbd503424.json |  161 ---
+|  .../reply/codemodel-v2-d518a160639f908adb9a.json  |   60 -
+|  .../directory-.-Debug-f5ebdc15457944623624.json   |   14 -
+|  .../v1/reply/index-2025-07-02T18-12-08-0915.json  |  108 --
+|  .../target-Player-Debug-e94c92d4a1fc7333d70e.json |  165 ---
+|  .../reply/toolchains-v1-17cb755997f43c261180.json |   93 --
+|  .../CMakeFiles/TargetDirectories.txt              |    3 -
+|  .../CMakeFiles/clion-Debug-log.txt                |   13 -
+|  Player/cmake-build-debug/CMakeFiles/rules.ninja   |   64 -
+|  Players/.DS_Store                                 |  Bin 0 -> 8196 bytes
+|  {Player => Players}/.idea/.gitignore              |    0
+|  {Player => Players}/.idea/Player.iml              |    0
+|  {Player => Players}/.idea/editor.xml              |    0
+|  {Player => Players}/.idea/misc.xml                |    0
+|  {Player => Players}/.idea/modules.xml             |    0
+|  {Player => Players}/.idea/vcs.xml                 |    0
+|  {Player => Players}/Archer.cpp                    |    0
+|  {Player => Players}/Archer.h                      |    0
+|  {Player => Players}/CMakeLists.txt                |    0
+|  {Player => Players}/Character.h                   |    0
+|  {Player => Players}/CharacterFactory.cpp          |    0
+|  {Player => Players}/CharacterFactory.h            |    0
+|  {Player => Players}/CloseCombatJob.cpp            |    0
+|  {Player => Players}/CloseCombatJob.h              |    0
+|  {Player => Players}/Job.cpp                       |    0
+|  {Player => Players}/Job.h                         |    0
+|  {Player => Players}/JobFactory.cpp                |    0
+|  {Player => Players}/JobFactory.h                  |    0
+|  {Player => Players}/MagicalCreature.cpp           |    0
+|  {Player => Players}/MagicalCreature.h             |    0
+|  {Player => Players}/Magician.cpp                  |    0
+|  {Player => Players}/Magician.h                    |    0
+|  Players/Player.h                                  |   99 ++
+|  {Player => Players}/RangedCombatJob.h             |    0
+|  .../.cmake/api/v1/query/cache-v2                  |    0
+|  .../.cmake/api/v1/query/cmakeFiles-v1             |    0
+|  .../.cmake/api/v1/query/codemodel-v2              |    0
+|  .../.cmake/api/v1/query/toolchains-v1             |    0
+|  .../cmake-build-debug/CMakeCache.txt              |   21 +-
+|  .../CMakeFiles/3.29.6/CMakeCCompiler.cmake        |    0
+|  .../CMakeFiles/3.29.6/CMakeCXXCompiler.cmake      |    0
+|  .../3.29.6/CMakeDetermineCompilerABI_C.bin        |  Bin 17000 -> 17000 bytes
+|  .../3.29.6/CMakeDetermineCompilerABI_CXX.bin      |  Bin 16984 -> 16984 bytes
+|  .../CMakeFiles/3.29.6/CMakeSystem.cmake           |    0
+|  .../3.29.6/CompilerIdC/CMakeCCompilerId.c         |    0
+|  .../3.29.6/CompilerIdC/CMakeCCompilerId.o         |  Bin
+|  .../3.29.6/CompilerIdCXX/CMakeCXXCompilerId.cpp   |    0
+|  .../3.29.6/CompilerIdCXX/CMakeCXXCompilerId.o     |  Bin
+|  .../CMakeFiles/CMakeConfigureLog.yaml             |   68 +-
+|  .../CMakeFiles/clion-Debug-log.txt                |   25 +
+|  .../CMakeFiles/clion-environment.txt              |    0
+|  .../CMakeFiles/cmake.check_cache                  |    0
+|  .../Testing/Temporary/LastTest.log                |    0
+|  {Player => Players}/cmake-build-debug/build.ninja |    0
+|  .../cmake-build-debug/cmake_install.cmake         |    0
+|  57 files changed, 164 insertions(+), 1944 deletions(-)
+| 
+* commit 368d1fb71af323e7538777d4e85a153322534d4f
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:39:48 2025 +0300
+| 
+|     Magician.cpp create
+| 
+|  Player/Magician.cpp                                     | 12 ++++++++++++
+|  Player/cmake-build-debug/Testing/Temporary/LastTest.log |  4 ++--
+|  2 files changed, 14 insertions(+), 2 deletions(-)
+| 
+* commit a35f778cba12cf7c5bfdf102ba8d3d099901679a
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:37:47 2025 +0300
+| 
+|     Magician.h
+| 
+|  Player/.DS_Store                                       | Bin 0 -> 8196 bytes
+|  Player/.idea/editor.xml                                |   6 ++----
+|  Player/CMakeLists.txt                                  |   4 +++-
+|  Player/Magician.h                                      |  10 ++++++++++
+|  Player/{RangedCmbatJob.h => RangedCombatJob.h}         |   0
+|  Player/cmake-build-debug/CMakeCache.txt                |  11 ++++++++++-
+|  .../cmake-build-debug/CMakeFiles/clion-Debug-log.txt   |  13 +++++++++++--
+|  .../cmake-build-debug/Testing/Temporary/LastTest.log   |   4 ++--
+|  8 files changed, 38 insertions(+), 10 deletions(-)
+| 
+* commit c7cf95e10040ac263922d63f0d43dbe556032a1f
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:33:08 2025 +0300
+| 
+|     MagicalCreature.cpp
+| 
+|  Player/MagicalCreature.cpp | 9 +++++++++
+|  1 file changed, 9 insertions(+)
+| 
+* commit 1f1364cbd6f2b4d68511e48104076e4f3904bdd1
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:31:42 2025 +0300
+| 
+|     MagicalCreature.h
+| 
+|  Player/MagicalCreature.h | 6 ++++++
+|  1 file changed, 6 insertions(+)
+| 
+* commit 1146e0898f658a1849cb6b6cd0d3bf840aed2418
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:29:01 2025 +0300
+| 
+|     creating CloseCombatJob.cpp
+| 
+|  Player/CloseCombatJob.cpp | 10 ++++++++++
+|  1 file changed, 10 insertions(+)
+| 
+* commit 29a81ae1bcd99969a44e7cda51a425e0d5525ed9
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:27:19 2025 +0300
+| 
+|     creating CloseCombatJob.h
+| 
+|  Player/CloseCombatJob.h | 11 +++++++++++
+|  1 file changed, 11 insertions(+)
+| 
+* commit a2952f527f745b26b11fe7488c77de680d1fe29d
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:25:33 2025 +0300
+| 
+|     creating CharacterFactory.cpp
+| 
+|  Player/CharacterFactory.cpp | 11 +++++++++++
+|  1 file changed, 11 insertions(+)
+| 
+* commit f04ff333b3b0a0b5294a85c03d60ae8f5fda46fb
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:24:17 2025 +0300
+| 
+|     creating CharacterFactory.h
+| 
+|  Player/CharacterFactory.h | 8 ++++++++
+|  1 file changed, 8 insertions(+)
+| 
+* commit 8e1454e48502f076628fe0d96a47654f10202e82
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:20:05 2025 +0300
+| 
+|     character.h create
+| 
+|  Player/Character.h | 13 +++++++++++++
+|  1 file changed, 13 insertions(+)
+| 
+* commit 59066472e8419115b2312f6b6d0cccf1d26ad173
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:17:44 2025 +0300
+| 
+|     Archer.cpp
+| 
+|  Player/.idea/editor.xml                           |  4 +++
+|  Player/Archer.cpp                                 |  8 +++++
+|  Player/CMakeLists.txt                             | 36 +++++++++++++++------
+|  ...son => codemodel-v2-d518a160639f908adb9a.json} |  2 +-
+|  ...8.json => index-2025-07-02T18-12-08-0915.json} |  4 +--
+|  ...target-Player-Debug-e94c92d4a1fc7333d70e.json} | 12 +++++--
+|  .../Testing/Temporary/LastTest.log                |  4 +--
+|  Player/cmake-build-debug/build.ninja              |  9 +++++-
+|  8 files changed, 62 insertions(+), 17 deletions(-)
+| 
+* commit fba110562955b1a53dc812cfa9ea162d1e630194
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:11:14 2025 +0300
+| 
+|     Archer.h create
+| 
+|  Player/.idea/editor.xml                           |  476 +++----
+|  Player/Archer.h                                   |   17 +
+|  Player/CMakeLists.txt                             |    3 +-
+|  .../reply/cmakeFiles-v1-8238d7c5f88d733cfa2a.json | 1234 -------------------
+|  .../reply/cmakeFiles-v1-b656122a8a7dbd503424.json |  161 +++
+|  ...son => codemodel-v2-af2d6badee0e544bf454.json} |    2 +-
+|  ...4.json => index-2025-07-02T18-10-34-0608.json} |    8 +-
+|  ...target-Player-Debug-b28761e20de833edc18c.json} |    8 +-
+|  .../CMakeFiles/clion-Debug-log.txt                |   14 +-
+|  .../Testing/Temporary/LastTest.log                |    4 +-
+|  Player/cmake-build-debug/build.ninja              |   11 +-
+|  11 files changed, 436 insertions(+), 1502 deletions(-)
+| 
+* commit e74a90567b7eccc0fb72d4f2669c09565955760c
+| Author: Onegvaknin <oneg.vaknin@campus.technion.ac.il>
+| Date:   Wed Jul 2 21:09:18 2025 +0300
+| 
+|     RangedCombatJob.h create
+| 
+|  Player/.idea/.gitignore                           |    8 +
+|  Player/.idea/Player.iml                           |    2 +
+|  Player/.idea/editor.xml                           |  580 +++++++++
+|  Player/.idea/misc.xml                             |    7 +
+|  Player/.idea/modules.xml                          |    8 +
+|  Player/.idea/vcs.xml                              |    6 +
+|  Player/CMakeLists.txt                             |   14 +
+|  Player/RangedCmbatJob.h                           |    8 +
+|  .../.cmake/api/v1/query/cache-v2                  |    0
+|  .../.cmake/api/v1/query/cmakeFiles-v1             |    0
+|  .../.cmake/api/v1/query/codemodel-v2              |    0
+|  .../.cmake/api/v1/query/toolchains-v1             |    0
+|  .../v1/reply/cache-v2-f2f06b31c100afef6d85.json   | 1163 +++++++++++++++++
+|  .../reply/cmakeFiles-v1-8238d7c5f88d733cfa2a.json | 1234 +++++++++++++++++++
+|  .../reply/codemodel-v2-2d76d7035d41fe380ab3.json  |   60 +
+|  .../directory-.-Debug-f5ebdc15457944623624.json   |   14 +
+|  .../v1/reply/index-2025-07-02T18-07-51-0734.json  |  108 ++
+|  .../target-Player-Debug-f9755cbc2ea740895595.json |  151 +++
+|  .../reply/toolchains-v1-17cb755997f43c261180.json |   93 ++
+|  Player/cmake-build-debug/CMakeCache.txt           |  363 ++++++
+|  .../CMakeFiles/3.29.6/CMakeCCompiler.cmake        |   80 ++
+|  .../CMakeFiles/3.29.6/CMakeCXXCompiler.cmake      |   92 ++
+|  .../3.29.6/CMakeDetermineCompilerABI_C.bin        |  Bin 0 -> 17000 bytes
+|  .../3.29.6/CMakeDetermineCompilerABI_CXX.bin      |  Bin 0 -> 16984 bytes
+|  .../CMakeFiles/3.29.6/CMakeSystem.cmake           |   15 +
+|  .../3.29.6/CompilerIdC/CMakeCCompilerId.c         |  895 ++++++++++++++
+|  .../3.29.6/CompilerIdC/CMakeCCompilerId.o         |  Bin 0 -> 1712 bytes
+|  .../3.29.6/CompilerIdCXX/CMakeCXXCompilerId.cpp   |  878 +++++++++++++
+|  .../3.29.6/CompilerIdCXX/CMakeCXXCompilerId.o     |  Bin 0 -> 1712 bytes
+|  .../CMakeFiles/CMakeConfigureLog.yaml             |  439 +++++++
+|  .../CMakeFiles/TargetDirectories.txt              |    3 +
+|  .../CMakeFiles/clion-Debug-log.txt                |   16 +
+|  .../CMakeFiles/clion-environment.txt              |    4 +
+|  .../CMakeFiles/cmake.check_cache                  |    1 +
+|  Player/cmake-build-debug/CMakeFiles/rules.ninja   |   64 +
+|  .../Testing/Temporary/LastTest.log                |    3 +
+|  Player/cmake-build-debug/build.ninja              |  155 +++
+|  Player/cmake-build-debug/cmake_install.cmake      |   49 +
+|  38 files changed, 6513 insertions(+)
+| 
+* commit 81c8d0224ba6195672931243c19e1771a690d5a1
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 20:59:30 2025 +0300
+| 
+|     creating JobFactory.cpp class
+| 
+|  Player/JobFactory.cpp | 13 +++++++++++++
+|  Player/JobFactory.h   | 19 +++++++------------
+|  2 files changed, 20 insertions(+), 12 deletions(-)
+| 
+* commit 0d643841639cccd886f897ad33db80f17fb76447
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 20:56:27 2025 +0300
+| 
+|     creating JobFactory.h class
+| 
+|  Player/JobFactory.h | 13 +++++++++++++
+|  1 file changed, 13 insertions(+)
+| 
+* commit 6a5586e1b1522b9c728a84ff903359377f198f79
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 20:53:10 2025 +0300
+| 
+|     creating BaseFactory.h class
+| 
+|  Events/BaseFactory.h | 34 ++++++++++++++++++++++++++++++++++
+|  1 file changed, 34 insertions(+)
+| 
+* commit fedc61a75af36312db66c8cb3faa87c04ee94ae3
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 20:50:49 2025 +0300
+| 
+|     creating job.cpp
+| 
+|  Player/Job.cpp | 29 +++++++++++++++++++++++++++++
+|  1 file changed, 29 insertions(+)
+| 
+* commit 23fbfb834b206859913d423d7360fd6294bef225
+| Author: mohamedabolel <mabolel@campus.technion.ac.il>
+| Date:   Wed Jul 2 20:49:09 2025 +0300
+| 
+|     creating job class header file
+| 
+|  .DS_Store                                    | Bin 0 -> 6148 bytes
+|  .idea/.gitignore                             |   8 +++++++
+|  .idea/Matam_HW_4.iml                         |   8 +++++++
+|  .idea/inspectionProfiles/Project_Default.xml |   5 +++++
+|  .idea/modules.xml                            |   8 +++++++
+|  .idea/vcs.xml                                |   6 +++++
+|  Event.h => Events/Event.h                    |   0
+|  Player/Job.h                                 |  30 +++++++++++++++++++++++++
+|  Player.h => Player/Player.h                  |   0
+|  test1.events => tests/test1.events           |   0
+|  test1.expected => tests/test1.expected       |   0
+|  test1.players => tests/test1.players         |   0
+|  test2.events => tests/test2.events           |   0
+|  test2.expected => tests/test2.expected       |   0
+|  test2.players => tests/test2.players         |   0
+|  test3.events => tests/test3.events           |   0
+|  test3.expected => tests/test3.expected       |   0
+|  test3.players => tests/test3.players         |   0
+|  18 files changed, 65 insertions(+)
+| 
+* commit 4834c2abc2c7a6e07b58214904554ee2b3024766
+  Author: Mohamed Abolel <abolelmohamed44@gmail.com>
+  Date:   Sun Jun 29 12:48:31 2025 +0300
+  
+      Add files via upload
+  
+   Event.h        |  14 ++++++
+   MatamStory.cpp |  74 ++++++++++++++++++++++++++++
+   MatamStory.h   |  55 +++++++++++++++++++++
+   Player.h       |  51 +++++++++++++++++++
+   README.md      |   7 +++
+   Utilities.cpp  | 117 ++++++++++++++++++++++++++++++++++++++++++++
+   Utilities.h    | 146 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   main.cpp       |  40 +++++++++++++++
+   test1.events   |   5 ++
+   test1.expected |  96 ++++++++++++++++++++++++++++++++++++
+   test1.players  |   3 ++
+   test2.events   |   4 ++
+   test2.expected |   1 +
+   test2.players  |   3 ++
+   test3.events   |   5 ++
+   test3.expected |   1 +
+   test3.players  |   2 +
+   17 files changed, 624 insertions(+)
