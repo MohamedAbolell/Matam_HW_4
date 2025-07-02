@@ -11,4 +11,5 @@ add_executable(Player
     JobFactory.cpp
     JobFactory.h
     Player.h
-    RangedCmbatJob.h)
+    RangedCmbatJob.h
+        Archer.h)
