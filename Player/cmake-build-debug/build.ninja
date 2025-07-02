@@ -63,6 +63,13 @@ build CMakeFiles/Player.dir/JobFactory.cpp.o: CXX_COMPILER__Player_unscanned_Deb
   OBJECT_DIR = CMakeFiles/Player.dir
   OBJECT_FILE_DIR = CMakeFiles/Player.dir
 
+build CMakeFiles/Player.dir/Archer.cpp.o: CXX_COMPILER__Player_unscanned_Debug /Users/onegvaknin/Desktop/matam4/Matam_HW_4/Player/Archer.cpp || cmake_object_order_depends_target_Player
+  DEP_FILE = CMakeFiles/Player.dir/Archer.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.5 -fcolor-diagnostics
+  INCLUDES = -I/Users/onegvaknin/Desktop/matam4/Matam_HW_4/Player/.
+  OBJECT_DIR = CMakeFiles/Player.dir
+  OBJECT_FILE_DIR = CMakeFiles/Player.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Player
@@ -71,7 +78,7 @@ build CMakeFiles/Player.dir/JobFactory.cpp.o: CXX_COMPILER__Player_unscanned_Deb
 #############################################
 # Link the executable Player
 
-build Player: CXX_EXECUTABLE_LINKER__Player_Debug CMakeFiles/Player.dir/Job.cpp.o CMakeFiles/Player.dir/JobFactory.cpp.o
+build Player: CXX_EXECUTABLE_LINKER__Player_Debug CMakeFiles/Player.dir/Job.cpp.o CMakeFiles/Player.dir/JobFactory.cpp.o CMakeFiles/Player.dir/Archer.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.5
   OBJECT_DIR = CMakeFiles/Player.dir
   POST_BUILD = :
