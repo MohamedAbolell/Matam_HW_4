@@ -105,4 +105,54 @@ shared_ptr<Player> MatamStory::parsePlayer(const string &playerName, std::istrea
     auto job = jobFactory.create(jobName);
     return std::make_shared<Player>(playerName, std::move(job), std::move(character));
 }
+void MatamStory::printCharacterIntros() const {
+    int orderNumber = 1;
+    for (const auto &player: activePlayers) {
+        printStartPlayerEntry(orderNumber++, *(player));
+    }
+}
+
+void MatamStory::sortPlayersAndPrintLeaderboard() {
+    sortAllPlayers();
+    printLeaderBoardMessage();
+    // printing from the end ("largest") to the beginning ("smallest")
+    int place = 1;
+    for (auto it = allPlayers.rbegin(); it != allPlayers.rend(); ++it, ++place) {
+        printLeaderBoardEntry(place, **it);
+    }
+}
+
+std::vector<shared_ptr<Player> > MatamStory::getAllPlayers() const {
+    return allPlayers;
+}
+
+const std::deque<shared_ptr<Player> > &MatamStory::getActivePlayers() const {
+    return activePlayers;
+}
+
+const std::deque<unique_ptr<Event> > &MatamStory::getEvents() const {
+    return events;
+}
+
+bool MatamStory::weHaveAWinner() const {
+    return std::any_of(
+            allPlayers.begin(), allPlayers.end(),
+            [this](const shared_ptr<Player> &player) {
+                return player->getLevel() == MAXIMUM_LEVEL;
+            }
+    );
+}
+
+void MatamStory::playTurn(Player &player) {
+    // Get the first event at the head and put it at the back
+    unique_ptr<Event> currentEvent = std::move(events.front());
+    events.pop_front();
+
+    // Handle event
+    printTurnDetails(m_turnIndex, player, *currentEvent);
+    printTurnOutcome(currentEvent->handleAndDescribeOutcome(player));
+    events.push_back(std::move(currentEvent));
+    m_turnIndex++;
+}
+
 
