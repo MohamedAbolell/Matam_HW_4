@@ -10,4 +10,5 @@ add_executable(Events
     BaseFactory.h
     Event.h
     Monster.cpp
-    Monster.h)
+    Monster.h
+        Balrog.cpp)
